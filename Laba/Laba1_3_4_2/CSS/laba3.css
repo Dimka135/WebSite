@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+button {
+}
+
+.btn {
+	width: 100%;
+	display: inline-block;
+	text-align: right;
+	background-color: #ddd;
+	padding: 10px;
+}
+
+.btn button {
+	color: #fff;
+	background-color: #12429a;
+	padding: 10px;
+
+}
+
+.text {
+	border: 2px solid #12429a;
+	margin: 10px;
+	padding: 10px;
+}
+
+.text p {
+	background-color: #d4d469;
+	margin-top: 10px;
+}
+
+.btn-text {
+	background-color: #a52a2a;
+	color: #fff;
+	padding: 4px 15px;
+}
+
+.for-news {
+	color: #2f17ff;
+	font-weight: 700;
+	padding: 0 10px;
+	margin-top: 10px;
+}
+
+.btn_1 {
+	text-align: left;
+}
+
+.margin {
+	margin-top: 100px;
+}
