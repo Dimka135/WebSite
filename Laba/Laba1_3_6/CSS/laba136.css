@@ -1,0 +1,37 @@
+header {
+	padding: 15px;
+	background-color: darkturquoise;
+}
+
+.item {
+	padding: 15px;
+	background-color: darkviolet;
+	color: #fff;
+	font-family: sans-serif;
+	display: inline-block;
+}
+
+.item + .item {
+	margin-left: 20px;
+}
+
+.sidebar {
+	margin-top: 40px;
+	width: 400px;
+	padding: 20px;
+	background-color: bisque;
+	display: inline-block;
+}
+
+.btn_sidebar {
+	width: 45%;
+	padding: 10px;
+	border: solid 1px brown;
+	background-color: burlywood;
+	color: #fff;
+	float: left;
+	box-sizing: border-box;
+	margin-right: 5%;
+	text-align: center;
+}
+
