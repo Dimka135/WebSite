@@ -1,0 +1,94 @@
+/* 1 вариант 
+.container {
+	width: 400px;
+	height: 400px;
+	border: 2px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block {
+	width: 100px;
+	height: 100px;
+	border: 2px solid red;
+}
+*/
+
+/* 2 вариант
+
+.container {
+	width: 400px;
+	height: 400px;
+	border: 2px solid black;
+}
+
+.block {
+	width: 100px;
+	height: 100px;
+	border: 2px solid red;
+	margin: 33% auto;
+}
+
+*/
+
+/* 3 вариант
+
+.container {
+	width: 400px;
+	height: 400px;
+	border: 2px solid black;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+.block {
+	width: 100px;
+	height: 100px;
+	border: 2px solid red;
+}
+
+*/
+
+/* 4 вариант
+
+.container {
+	width: 400px;
+	height: 400px;
+	border: 2px solid black;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.block {
+	width: 100px;
+	height: 100px;
+	border: 2px solid red;
+	margin: 0 auto;
+}
+
+*/
+
+/* 5 вариант */
+
+.container {
+	width: 400px;
+	height: 400px;
+	border: 2px solid black;
+	position: relative;
+}
+
+.block {
+	width: 100px;
+	height: 100px;
+	border: 2px solid red;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* 6 вариант */
