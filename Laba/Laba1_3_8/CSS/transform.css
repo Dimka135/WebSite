@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrapper {
+	width: 100%;
+	height: 100vh;
+	background-image: url(..//Image/space.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	position: fixed;
+}
+
+.orbit {
+	width: 600px;
+	height: 600px;
+	border: 5px solid white;
+	margin: 0 auto;
+	border-radius: 50%;
+	position: relative;
+	animation: orbit 6s linear infinite;
+}
+
+.orbit:hover {
+	animation-play-state: paused;
+}
+
+.sun {
+	width: 150px;
+	height: 150px;
+	background-color: gold;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.mars {
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	border-radius: 50%;
+	margin-top: 150px;
+}
+
+.earth {
+	width: 50px;
+	height: 50px;
+	background-color: green;
+	border-radius: 50%;
+	margin-top: 150px;
+	animation: earth 4s linear infinite;
+}
+
+.mars:hover {
+	transform: scale(1.);
+	transition: .5s;
+}
+
+@keyframes orbit {
+	from {
+		transform: rotate(360deg);
+	}
+
+	to {
+		transform: rotate(0deg);
+
+	}
+}
+
+@keyframes earth {
+	0% {
+		transform: scale(1);
+	}
+
+	20% {
+		transform: scale(1.4);
+	}
+	40% {
+		transform: scale(1.6);
+	}
+	60% {
+		transform: scale(1.8);
+	}
+	80% {
+		transform: scale(1.6);
+	}
+	85% {
+		transform: scale(1.5);
+	}
+	90% {
+		transform: scale(1.4);
+	}
+	95% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(1);
+	}
+	
+}
+

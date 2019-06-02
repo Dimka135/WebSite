@@ -1,0 +1,33 @@
+.section {
+	width: 80%;
+	margin: 60px auto;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+	background-image: -webkit-linear-gradient(
+		left, 
+		#535B34, 
+		#535B34 20%,
+		#337529 20%,
+		#ccc 40%,
+		#eee 40%,
+		#A5696A 45%,
+		#A5698D 47%,
+		#3E3267 50%,
+		#131416 53%,
+		#0FA99F 56%,
+		#E665DD 58%,
+		#eee 60%,
+		#ccc 60%,
+		#337529 80%,
+		#535B34 80%,
+		#535B34 100%);
+}
+
+.block {
+	width: 20%;
+	height: 300px;
+	text-align: center;
+	color: #fff;
+}
